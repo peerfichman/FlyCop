@@ -1,0 +1,33 @@
+{
+  "title": "Mission Shortcuts",
+  "shortcuts": [
+    {
+      "missionName": "Max Distance",
+      "type": "Patrol",
+      "maxAltitude": 7,
+      "duration": 60,
+      "maxDistance": 2500
+    },
+    {
+      "missionName": "High Altitude",
+      "type": "Patrol",
+      "maxAltitude": 10,
+      "duration": 75,
+      "maxDistance": 1750
+    },
+    {
+      "missionName": "Low Altitude",
+      "type": "Patrol",
+      "maxAltitude": 5,
+      "duration": 40,
+      "maxDistance": 1000
+    },
+    {
+      "missionName": "Stand Still",
+      "type": "stand still",
+      "maxAltitude": 8,
+      "duration": 30,
+      "maxDistance": 0
+    }
+  ]
+}

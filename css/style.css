@@ -1,0 +1,526 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-size: clamp(5px, 3vw, 18px)
+}
+
+body {
+    background-color: #bdb9b9;
+    white-space: nowrap;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: #34393ed3;
+}
+
+/*----------------Navbar-----------------------*/
+
+#personImg {
+    clip-path: circle();
+    height: 50%;
+    width: 90px;
+    height: 77px;
+}
+
+#person {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 25px;
+}
+
+#person p {
+    margin: 0px;
+}
+
+#person i {
+    margin-right: 10px;
+}
+
+#person h5 {
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.navbar-brand {
+    background-image: url("/students/2021-2022/web1/dev_209/images/logo.png");
+    width: 175px;
+    height: 77px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: brightness(0) invert(1);
+
+}
+
+.offcanvas-start {
+    background-color: #212529;
+}
+
+.container-fluid {
+    background-color: #212529;
+}
+
+.navbar {
+    padding: 0px;
+    white-space: nowrap;
+}
+
+
+/*----------------General-----------------------*/
+.grayBtn {
+    position: relative;
+    float: right;
+    background-color: gray;
+    border-radius: 20%;
+    height: 30px;
+    width: 30px;
+    border: none;
+    margin-left: 9px;
+    border: none;
+}
+
+.grayBtn img {
+    width: auto;
+    height: auto;
+    max-width: 25px;
+    max-height: 25px;
+    position: relative;
+    bottom: 3px;
+    left: -1px;
+}
+
+.btn-lg {
+    margin: 25px 25px 0px 0px;
+}
+
+.btn {
+    border-radius: 20px;
+    white-space: nowrap;
+}
+
+.btn-sm {
+    margin-left: 10px;
+}
+
+.active {
+    font-weight: bold;
+}
+
+ul.breadcrumbs {
+    padding: 10px 16px;
+    list-style: none;
+}
+
+
+ul.breadcrumbs li {
+    display: inline;
+}
+
+ul.breadcrumbs li a {
+    text-decoration: none;
+    color: black;
+}
+
+
+ul.breadcrumbs li a:hover {
+    color: black;
+    font-weight: bold;
+}
+
+
+.loginButton {
+    border-radius: 12px;
+    margin: 25px auto;
+    display: block;
+}
+
+.form-select {
+    margin-bottom: 10px;
+}
+
+/*----------------Main Object Page---------------*/
+
+.startLine {
+    width: 30%;
+}
+
+#mainObjContent {
+    margin: auto 5%;
+    margin-top: 1%;
+
+}
+
+#mainObjContent h1 {
+    margin-bottom: 20px;
+}
+
+
+#missionProperties {
+    width: 35%;
+    margin-top: 3%;
+}
+
+#missSet {
+    background: rgba(255, 255, 255, 0.4);
+    border-radius: 10px;
+    margin-top: 40px;
+    width: 50%;
+    padding: 20px;
+}
+
+
+.bi-pencil-fill::before {
+    position: relative;
+    color: white;
+    left: 5px;
+    top: -2px;
+}
+
+#missonSetTbl {
+    width: 50%;
+}
+
+#vioDet {
+    background: rgba(255, 255, 255, 0.4);
+    border-radius: 10px;
+    margin: 30px 0px;
+    width: 100%;
+    padding: 20px;
+}
+
+.signIcn {
+    width: auto;
+    height: auto;
+    max-width: 35px;
+    max-height: 35px;
+}
+
+.vioDet {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin-left: 20px;
+    align-items: flex-end;
+
+}
+
+[class^="bi-"]::before,
+[class*=" bi-"]::before {
+    position: relative;
+    bottom: 3px;
+    color: white;
+}
+
+/*----------------Edit Object Page---------------*/
+
+#editObj {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    margin: 50px;
+    height: 100%;
+    white-space: nowrap;
+}
+
+
+#editObj table {
+    width: 30%;
+    margin: 15px 0px 15px 0px;
+}
+
+#editObj th {
+    width: 15%;
+}
+
+.form-check-input {
+    margin-top: 2%;
+    margin-right: 1%;
+}
+
+
+.form-check-input:checked {
+    background-color: #000000;
+    border-color: #424242;
+}
+
+.form-range {
+    width: 80%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.editForm {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+
+.bg-dark {
+    height: 50%;
+    margin-left: 20px;
+}
+
+.form-group {
+    margin: 25px 0px;
+}
+
+.form-group label {
+    width: 22%;
+    margin-top: 2%;
+    margin-right: 15px;
+    font-weight: bold;
+}
+
+.form-group p {
+    width: 15%;
+}
+
+.buttonGroup {
+    margin: 25px;
+
+}
+
+.buttonGroup button{
+    margin-right: 25px;
+}
+
+.buttonGroup a {
+    margin-right: 25px;
+}
+
+.buttonGroup input {
+    margin-right: 25px;
+}
+
+
+/*----------------Drone List Page-----------------------*/
+
+#listWrapper {
+    margin: 75px auto;
+    width: 75%;
+}
+
+.imgStyle {
+    margin-right: 25px;
+}
+
+.tableStyle {
+    width: 100%;
+    white-space: nowrap;
+}
+
+.tableStyle th {
+    width: 20%;
+
+}
+
+.droneObject {
+    text-decoration: none;
+    color: #000000;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.droneObject:hover {
+    color: #34393ed3;
+}
+
+.btn-danger img {
+    width: 20px;
+    height: 20px;
+}
+
+
+/*----------------Home Page-----------------------*/
+.grayBack {
+    background-color: rgba(255, 255, 255, 0.4);
+    padding: 20px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+
+.homeDiv {
+    width: 50%;
+    justify-content: space-evenly;
+}
+
+
+.recentViolations {
+    width: 75%;
+}
+
+.quickIcn {
+    height: 80px;
+    width: 80px;
+    margin-bottom: 5px;
+}
+
+h6 {
+    margin-bottom: 0;
+}
+
+.bord {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.252);
+}
+
+.container {
+    height: 100%;
+}
+
+/*----------------Create Object-----------------------*/
+.wrapper {
+    margin: 25px auto;
+    width: 85%;
+}
+
+#missSC {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/*----------------Violation List-----------------------*/
+
+.violationList {
+    list-style-type: none;
+    margin-top: 10px;
+    padding: 0px;
+}
+
+.violationList a {
+    text-decoration: none;
+    color: #000000;
+}
+
+
+
+
+/* Media Responsive */
+
+
+@media only screen and (max-width: 1450px) {
+
+    /* Navbar */
+    .navbar-brand {
+        width: 150px;
+        height: 66px;
+    }
+
+
+    /* Drone List */
+    .imgStyle {
+        width: 100px;
+    }
+}
+
+@media only screen and (max-width:1040px) {
+
+    /* Navbar */
+    #person {
+        width: 35%;
+        justify-content: center;
+    }
+
+    #listWrapper {
+        margin: 25px auto;
+        width: 75%;
+    }
+
+
+    /* Drone List */
+    .droneObject {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    /* Main Object */
+    #missSet {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    #missionProperties {
+        width: 50%;
+    }
+
+    .signIcn {
+        width: 25px;
+        height: 25px;
+    }
+
+    .grayBtn img {
+        width: 20px;
+        height: 20px;
+    }
+
+    /* Home Page */
+
+    .homeDiv {
+        width: 100%;
+    }
+
+    .recentViolations {
+        width: 100%;
+    }
+
+    .btn-res {
+       font-size: 14px;
+    }
+    
+    #editObj {
+        width: 90%;
+        margin: 50px auto;
+    }
+
+}
+
+
+@media only screen and (max-width: 500px) {
+
+    /* Navbar */
+    .navbar-brand {
+        width: 100px;
+        height: 44px;
+    }
+
+    #personImg {
+        width: 75px;
+        height: 50px;
+    }
+
+    /* Drone List */
+    .imgStyle {
+        width: 75px;
+    }
+
+    .btn-danger img {
+        width: 15px;
+        height: 15px;
+    }
+
+    .vioDet tr {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .grayBtn {
+        width: 25px;
+        height: 25px;
+    }
+    .btn-res {
+        font-size: 11px;
+     }
+
+}
